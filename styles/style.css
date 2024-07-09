@@ -24,7 +24,8 @@
 /* banner style */
 .banner-container{
     background-image: url('../assets/Hero-bg.png');
-    margin:20px auto;
+    margin:0px auto;
+    margin-bottom: 74px;
     height: 652px;
     background-position: center;
     background-size: cover;
@@ -58,4 +59,75 @@
     background: rgb(13, 19, 33);
     color:white;
     font-size: 20px;
+}
+
+/* Web development styles */
+
+.container{
+    width: 1140px;
+    height: 1250px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-top: 74px;
+    margin-bottom: 88px;
+}
+.container .div1{
+    text-align: center;
+}
+.container .div1 .title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.container .div1 .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+
+.container .div2{
+    display: flex;
+    align-items: center;
+    gap: 108px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255,0.1), rgba(255, 255, 255,0.99));
+    border-radius: 16px;
+    padding: 48px;
+}
+.container .div3{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 108px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255,0.1), rgba(255, 255, 255,0.99));
+    border-radius: 16px;
+    padding: 48px;
+    margin: 40 px 0px;
+}
+
+.container .div2 .title, .div3 .title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.container .div2 .description, .div3 .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33,0.7);
+    margin-top: 16px;
+    margin-bottom: 32px ;
+
+}
+.btn2{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    border: 1px solid rgba(13, 19, 33,0.7);
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    background-color:rgba(0, 0, 0, 0);
 }
