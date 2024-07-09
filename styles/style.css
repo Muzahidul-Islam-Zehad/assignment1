@@ -160,3 +160,75 @@
     border-radius: 15px;
 }
 
+/* current terget style */
+.current-terget-container{
+    margin: 111px auto;
+}
+.current-terget-container> div{
+    text-align: center;
+}
+
+.current-terget-container .title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.current-terget-container .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.card-container{
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+
+    
+}
+.card-container .card{
+    text-align: left;
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+}
+.card-container .card .title1{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.card-container .card .description1{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-bottom: 50px;
+    margin-top: 8px;
+}
+
+.learn-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.color1{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    
+
+}
+.color2{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    
+
+}
+.color3{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    
+}
