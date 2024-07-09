@@ -1,0 +1,61 @@
+/* Fonts--> */
+/* Font classes */
+.azeret-mono-regular{
+    font-family: "Azeret Mono";
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+  }
+
+  .merriweather-sans-regular> {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+/* main part starts here */
+
+*{
+    margin: 0px;
+}
+
+
+/* banner style */
+.banner-container{
+    background-image: url('../assets/Hero-bg.png');
+    margin:20px auto;
+    height: 652px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-container .banner-text{
+    text-align: center;
+    height: 652px;
+    align-content: center;
+}
+.banner-text .title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 43px;
+}
+.banner-text .description{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-text .btn{
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color:white;
+    font-size: 20px;
+}
