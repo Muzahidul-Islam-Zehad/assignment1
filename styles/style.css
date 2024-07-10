@@ -7,12 +7,6 @@
     font-style: normal;
   }
 
-  .merriweather-sans-regular> {
-    font-family: "Merriweather Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-  }
   
 /* main part starts here */
 
@@ -24,7 +18,7 @@
 /* banner style */
 .banner-container{
     background-image: url('../assets/Hero-bg.png');
-    margin:0px auto;
+    margin:0 auto;
     margin-bottom: 74px;
     height: 652px;
     background-position: center;
@@ -137,6 +131,7 @@
 .inspiration-container{
     text-align: center;
     padding: 30px;
+    margin: 0 auto;
 }
 
 .inspiration-container .title{
@@ -232,3 +227,69 @@
     border-radius: 16px;
     
 }
+
+/* support section style */
+
+.support-container{
+    margin: 0 auto;
+    width: 1140px;
+    height: 314px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    margin-bottom: 80px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+}
+
+.support-container .text-container{
+    align-content: center;
+    text-align: center;
+    height: 314px;
+}
+.support-container .text-container .title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.support-container .text-container .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.support-container .text-container .form{
+    display: flex;
+    justify-content:center;
+}
+
+.support-container .text-container .input-text{
+    width: 548px;
+    height: 57px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+.support-container .text-container .submit-text{
+    width: 120px;
+height: 58px;
+padding: 17px 20px 17px 20px;
+margin: 0px 16px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+color: rgb(13, 19, 33);
+}
+
+
