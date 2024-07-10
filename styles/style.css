@@ -282,14 +282,34 @@
 
 .support-container .text-container .submit-text{
     width: 120px;
-height: 58px;
-padding: 17px 20px 17px 20px;
-margin: 0px 16px;
-border-radius: 8px;
-background: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-color: rgb(13, 19, 33);
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
 }
 
+/* footer style */
 
+.footer{
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer .footer-container{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 1230px;
+    margin: 32px auto;
+}
+
+.footer .footer-container .icon .img{
+    margin-right: 24px;
+}
