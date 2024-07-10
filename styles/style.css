@@ -146,20 +146,21 @@
     font-weight: 400;
     color: (13, 19, 33,0.5);
     margin-top: 24px;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 }
 .iframe-container{
     padding: 30px;
+    
 }
 .youtube{
-    width: 1140px;
-    height: 550px;
+    width: 1320px;
+    height: 650px;
     border-radius: 15px;
 }
 
 /* current terget style */
 .current-terget-container{
-    margin: 111px auto;
+    margin: 110px auto;
 }
 .current-terget-container > div{
     text-align: center;
@@ -188,7 +189,7 @@
 .card-container .card{
     text-align: left;
     padding: 40px;
-    width: 364px;
+    width: 350px;
     height: 300px;
 }
 .card-container .card .title1{
@@ -234,7 +235,7 @@
 
 .support-container{
     margin: 0 auto;
-    width: 1140px;
+    width: 1240px;
     height: 314px;
     background-color: rgba(0, 0, 0, 0.4);
     background-image: url('../assets/handshake.jpg');
@@ -308,7 +309,7 @@
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    width: 1230px;
+    width: 1320px;
     margin: 32px auto;
 }
 
